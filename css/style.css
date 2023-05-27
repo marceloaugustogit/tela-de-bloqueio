@@ -1,0 +1,118 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.layout {
+    background: #00243F;
+    width: 100%;
+    height: 50px;
+}
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-container::after {
+    content: "NEUROBANK";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(20%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px; /* Ajuste o tamanho do texto conforme necessário */
+    color: #F9FAFB; /* Ajuste a cor do texto conforme necessário */
+    margin-bottom: 7px;
+    background-color: #00243F; /* Ajuste a cor de fundo do texto conforme necessário */
+    padding: -5px -5px; /* Ajuste o espaçamento interno do texto conforme necessário */
+    white-space: nowrap;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+}
+
+ul {
+    background-color: #00243F;
+    width: 17%;
+    padding-bottom: 100%;
+    min-width: 17%;
+}
+
+a {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    color: #F9FAFB !important;
+    text-decoration: none;
+    text-indent: 40px;
+    background-color: #00243F;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    min-width: 100%
+}
+
+a:hover {
+    background: #004AAD;
+}
+
+.top-wrapper {
+    height: 50px;
+    width: 100vw;
+    background-color: blue
+}
+
+.left-wrapper {
+    width: 100px;
+    height: 100vh;
+    background-color: blue
+}
+
+.card-screen-block-wrapper {
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 60%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card-box {
+    max-width: 900px;
+    margin: 0 1rem;
+}
+
+.card-box h2 {
+    margin: 0 0 1rem 0;
+    font-weight: 700;
+}
+
+.card-button {
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card-button button {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    background-color: #053675;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 1rem;
+    color: white;
+    margin: 0 0.5rem;
+}
+
+.card-box h2 {
+    text-align: center;
+}
